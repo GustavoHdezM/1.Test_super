@@ -32,7 +32,7 @@ alpha3 = 0.5
 """
 infec_iter = []
 time_iter = []
-sim_cases = 100
+sim_cases = 1000
 
 for event in range(sim_cases):
 
