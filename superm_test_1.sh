@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=s30cm_10m
+#SBATCH --job-name=GHM_M2
 #SBATCH --partition=fuchs
 #SBATCH --nodes=3
 #SBATCH --ntasks=60

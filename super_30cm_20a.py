@@ -32,11 +32,11 @@ alpha3 = 0.5
 """
 infec_iter = []
 time_iter = []
-sim_cases = 10000
+sim_cases = 1000
 
 for event in range(sim_cases):
 
-    max_step = 300
+    max_step = 500
     step = 0
     P1_I = 0
     P2_I = 0
@@ -550,10 +550,10 @@ plt.rc('ytick', labelsize=14)
 #plt.grid(True)
 #plt.xticks([])
 #plt.yticks([])
-ax1.savefig('Test_30cm_20a_10mil.pdf', format='pdf', dpi=1400)
+ax1.savefig('Test_30cm_20a_10mi_M2.pdf', format='pdf', dpi=1400)
 plt.show() 
     
-print ('\nTotal of possible newly infected in 1000 simulations 10mil (1 m): {}'.format(sum(infec_num)) )
+print ('\nTotal of possible newly infected in 10000 simulations M2: {}'.format(sum(infec_num)) )
 
 #lenT = (len(T1)+ len(T2)+ len(T3)+ len(T4)+ len(T5)+ len(T6)+ len(T7)+ len(T8) +
 #        len(T18)+ len(T9)+ len(T10)+ len(T11)+ len(T12)+ len(T13)+ len(T14)+ 
